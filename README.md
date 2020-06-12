@@ -1,2 +1,2 @@
-# tedana-ohbm-2019
-Materials for OHBM 2019
+# tedana-ohbm-2020
+Materials for OHBM 2020
