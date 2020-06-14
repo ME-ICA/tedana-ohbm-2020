@@ -8,11 +8,11 @@ This contains materials related to tedana and multi-echo fMRI presented at the [
 * The narration for the poster that includes a demonstration of the interactive results report is here. (ADD LINK)
 * The jupyter notebook that was used to create the dynamic report on the poster is: [process_three_and_five_echo_datasets.ipynb](./process_three_and_five_echo_datasets.ipynb)
 * The interactive dynamic report for the 3-echo data shown in this poster is [here](./Reports/three-echo-report/tedana_report.html)
-* The interactive dynamic report for a -echo dataset  is [here](./Reports/five-echo-report/tedana_report.html)
+* The interactive dynamic report for a 5-echo dataset  is [here](./Reports/five-echo-report/tedana_report.html)
 
 -----
 
-### Symposium:“Two is better than one (and many are better): Multi-echo fMRI methods and applications”
+### Symposium: “Two is better than one (and many are better): Multi-echo fMRI methods and applications”
 #### July 3-4 Second Symposium Session
 [Full Description](https://www.humanbrainmapping.org/files/2020/OHBM_Two.pdf)
 
