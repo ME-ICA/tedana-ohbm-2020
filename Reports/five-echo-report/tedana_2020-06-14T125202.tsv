@@ -1,0 +1,35 @@
+2020-06-14T12:52:02	tedana.workflows.tedana	INFO    	Using output directory: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset
+2020-06-14T12:52:02	tedana.workflows.tedana	INFO    	Loading input data: ['five-echo-dataset/p06.SBJ01_S09_Task11_e1.sm.nii.gz', 'five-echo-dataset/p06.SBJ01_S09_Task11_e2.sm.nii.gz', 'five-echo-dataset/p06.SBJ01_S09_Task11_e3.sm.nii.gz', 'five-echo-dataset/p06.SBJ01_S09_Task11_e4.sm.nii.gz', 'five-echo-dataset/p06.SBJ01_S09_Task11_e5.sm.nii.gz']
+2020-06-14T12:52:03	tedana.workflows.tedana	INFO    	Computing EPI mask from first echo
+2020-06-14T12:52:03	tedana.workflows.tedana	INFO    	Computing T2* map
+2020-06-14T12:52:04	tedana.combine	INFO    	Optimally combining data with voxel-wise T2* estimates
+2020-06-14T12:52:05	tedana.decomposition.pca	INFO    	Computing PCA of optimally combined multi-echo data
+2020-06-14T12:52:05	tedana.decomposition.ma_pca	INFO    	Performing SVD on original OC data...
+2020-06-14T12:52:05	tedana.decomposition.ma_pca	INFO    	SVD done on original OC data
+2020-06-14T12:52:05	tedana.decomposition.ma_pca	INFO    	Estimating the subsampling depth for effective i.i.d samples...
+2020-06-14T12:52:07	tedana.decomposition.ma_pca	INFO    	Generating subsampled i.i.d. OC data...
+2020-06-14T12:52:07	tedana.decomposition.ma_pca	INFO    	Performing SVD on subsampled i.i.d. OC data...
+2020-06-14T12:52:07	tedana.decomposition.ma_pca	INFO    	SVD done on subsampled i.i.d. OC data
+2020-06-14T12:52:07	tedana.decomposition.ma_pca	INFO    	Effective number of i.i.d. samples 2997
+2020-06-14T12:52:07	tedana.decomposition.ma_pca	INFO    	Perform eigen spectrum adjustment ...
+2020-06-14T12:52:07	tedana.decomposition.ma_pca	INFO    	Estimating the dimension ...
+2020-06-14T12:52:07	tedana.decomposition.ma_pca	INFO    	Estimated components is found out to be 54
+2020-06-14T12:52:10	tedana.metrics.kundu_fit	INFO    	Fitting TE- and S0-dependent models to components
+2020-06-14T12:52:12	tedana.decomposition.pca	INFO    	Selected 54 components with mdl dimensionality detection
+2020-06-14T12:52:15	tedana.decomposition.ica	INFO    	ICA attempt 1 converged in 108 iterations
+2020-06-14T12:52:15	tedana.workflows.tedana	INFO    	Making second component selection guess from ICA results
+2020-06-14T12:52:19	tedana.metrics.kundu_fit	INFO    	Fitting TE- and S0-dependent models to components
+2020-06-14T12:52:21	tedana.metrics.kundu_fit	INFO    	Performing spatial clustering of components
+2020-06-14T12:52:23	tedana.selection.tedica	INFO    	Performing ICA component selection with Kundu decision tree v2.5
+2020-06-14T12:52:23	numexpr.utils	INFO    	NumExpr defaulting to 8 threads.
+2020-06-14T12:52:24	tedana.io   	INFO    	Writing optimally combined time series: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset/ts_OC.nii.gz
+2020-06-14T12:52:25	tedana.io   	INFO    	Variance explained by ICA decomposition: 97.29%
+2020-06-14T12:52:26	tedana.io   	INFO    	Writing high-Kappa time series: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset/hik_ts_OC.nii.gz
+2020-06-14T12:52:27	tedana.io   	INFO    	Writing low-Kappa time series: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset/lowk_ts_OC.nii.gz
+2020-06-14T12:52:28	tedana.io   	INFO    	Writing denoised time series: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset/dn_ts_OC.nii.gz
+2020-06-14T12:52:29	tedana.io   	INFO    	Writing full ICA coefficient feature set: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset/betas_OC.nii.gz
+2020-06-14T12:52:29	tedana.io   	INFO    	Writing denoised ICA coefficient feature set: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset/betas_hik_OC.nii.gz
+2020-06-14T12:52:30	tedana.io   	INFO    	Writing Z-normalized spatial component maps: /Users/handwerkerd/code/tedana_community/tedana-ohbm-2020/five-echo-dataset/feats_OC2.nii.gz
+2020-06-14T12:52:30	tedana.workflows.tedana	INFO    	Making figures folder with static component maps and timecourse plots.
+2020-06-14T12:52:51	tedana.workflows.tedana	INFO    	Generating dynamic report
+2020-06-14T12:52:51	tedana.workflows.tedana	INFO    	Workflow completed
