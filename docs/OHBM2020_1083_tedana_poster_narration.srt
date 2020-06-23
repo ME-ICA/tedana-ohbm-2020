@@ -1,0 +1,167 @@
+1
+00:00:00,000 --> 00:00:05,000
+Welcome to poster 1083 “tedana multi-echo software and communal resources.
+
+2
+00:00:05,100 --> 00:00:11,000
+I’m Dan Handwerker and I’m representing the growing tedana community. Tedana has two main parts. 
+
+3
+00:00:11,100 --> 00:00:17,000
+First, it’s an open source software that is designed to process and denoise multi-echo fMRI data. 
+
+4
+00:00:17,100 --> 00:00:23,000
+Second, it’s a community and resources for people interested in multi-echo fMRI whether or not they use tedana.
+
+5
+00:00:23,100 --> 00:00:28,000
+The software is based on a multi-echo ICA approach that was initially developed by Prantik Kundu. 
+
+6
+00:00:28,100 --> 00:00:34,000
+We have attempted to make that method more modular and understandable so members of our community, perhaps including you, 
+
+7
+00:00:34,100 --> 00:00:38,500
+can better validate existing methods and develop better multi-echo fMRI tools. 
+
+8
+00:00:38,600 --> 00:00:47,000
+A key addition in the past year has been an interactive reports page where users can examine each component that was accepted or rejected to better understand why. 
+
+9
+00:00:47,100 --> 00:00:53,000
+The poster includes a static version of this report and here I am going to demonstrate the dynamic version
+
+10
+00:00:53,100 --> 00:00:58,000
+What you see up here is a pie chart of variance explained of each ICA component. 
+
+11
+00:00:58,100 --> 00:01:03,000
+For each of these components you can see as I hover over it, it tells us some information about the component
+
+12
+00:00:58,100 --> 00:01:10,000
+We can see the same data as a scatter plot of kappa, which is a rough T2* weighting
+
+13
+00:01:10,100 --> 00:01:18,000
+versus rho, which is a rough S0 measure. Higher kappa and lower rho is typically considered signal that we want to keep.
+
+14
+00:01:18,100 --> 00:01:23,000
+and these are again sorted by rho values and kappa values. 
+
+15
+00:01:23,100 --> 00:01:27,000
+What's dynamic about this report is that not only do you see this, I can click on one of these and you can see
+
+16
+00:01:27,100 --> 00:01:31,000
+this is a high variance rejected component. It's the linear drift of our signal.
+
+17
+00:01:31,100 --> 00:01:36,000
+This is the time series, the spatial map, and the frequency. So we can click on other rejected components
+
+18
+00:01:36,100 --> 00:01:41,000
+to get a sense of what's being rejected, and also click on accepted components to see what's being accepted
+
+19
+00:01:41,100 --> 00:01:46,000
+for example this is our highest kappa accepted component, and this looks like the response
+
+20
+00:01:46,100 --> 00:01:52,000
+from a task design with high visual cortex activity, and this is the frequency of that signal
+
+21
+00:01:52,100 --> 00:02:00,000
+so this is a very nice improvement because, when we get these results sometimes it's a little bit opaque of what's happening
+
+22
+00:02:00,100 --> 00:02:04,000
+so this is one more way of understanding what's happening, and better understand both
+
+23
+00:02:04,100 --> 00:02:08,000
+your own data, and, if you're interested, better try to figure out what 
+
+24
+00:02:08,100 --> 00:02:11,000
+is or isn't working to both help yourself and us improve the method.
+
+25
+00:02:11,100 --> 00:02:18,000
+We do recognize that not everyone who is working with multi-echo fMRI can or wants to use tedana as a software. 
+
+26
+00:02:18,100 --> 00:02:24,000
+In response to discussions at the last OHBM, we’ve greatly expanded the documentation on the tedana website
+
+27
+00:02:24,100 --> 00:02:27,000
+to include resources that may benefit the wider community.
+
+28
+00:02:27,100 --> 00:02:33,000
+In our documenation, you can see that we have the tedana pipeline, so we have all the stuff that's software specific
+
+29
+00:02:33,100 --> 00:02:38,000
+We have the pipeline. We have the API, which goes through every function.
+
+30
+00:02:38,100 --> 00:02:41,000
+But we've also added a lot of text on things like "What is multi-echo fMRI"
+
+31
+00:02:41,100 --> 00:02:45,000
+basic physics of it with links to things where you can read more
+
+32
+00:02:45,100 --> 00:02:50,000
+"Why would you want to use multi-echo", Considerations for when you're going to use it.
+
+33
+00:02:50,100 --> 00:02:56,000
+that might influence your decision. We've added resources of the different vendors
+
+34
+00:02:56,100 --> 00:03:03,000
+that includes sequences you can get for each vendor. How to think about what parameters to use.
+
+35
+00:03:03,100 --> 00:03:06,000
+"what parameters have been used in publications"
+
+36
+00:03:06,100 --> 00:03:13,000
+and finally, we have this section on good starting point articles, and videos, and lessons
+
+37
+00:03:13,100 --> 00:03:18,000
+if you want to learn more about multi-echo fMRI. Other people's software that uses multi-echo fMRI
+
+38
+00:03:18,100 --> 00:03:22,000
+and open data sets we're starting to collect and 
+
+39
+00:03:22,100 --> 00:03:26,000
+and we've been trying to maintain a list of all publications that use multi-echo fMRI
+
+40
+00:03:26,100 --> 00:03:32,000
+If you use multi-echo fMRI, whether or not you use tedana software, we welcome contributions. 
+
+41
+00:03:32,100 --> 00:03:38,000
+Particularly, if you have published a study with multi-echo fMRI, make sure we have it on our list of all multi-echo fMRI publications. 
+
+42
+00:03:38,100 --> 00:03:44,000
+Thank you for taking the time to visit our poster and we welcome questions and contributions.

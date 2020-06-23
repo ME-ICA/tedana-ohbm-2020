@@ -4,8 +4,8 @@ This contains materials related to tedana and multi-echo fMRI presented at the [
 
 -----
 
-### Poster 1083: "tedana: Multi-echo software and communal resources"
-* The narration for the poster that includes a demonstration of the interactive results report is here. (ADD LINK)
+### [Poster 1083: "tedana: Multi-echo software and communal resources"](./docs/OHBM2020_1083_tedana_poster_with_links.pdf)
+* The narration for the poster that includes a demonstration of the interactive results report is [here](./docs/OHBM2020_1083_tedana_poster_narration.mp4) and captions for the narration are [here](./docs/OHBM2020_1083_tedana_poster_narration.srt).
 * The jupyter notebook that was used to create the dynamic report on the poster is: [process_three_and_five_echo_datasets.ipynb](./process_three_and_five_echo_datasets.ipynb)
 * The interactive dynamic report for the 3-echo data shown in this poster is [here](https://me-ica.github.io/tedana-ohbm-2020/three-echo-report/tedana_report.html)
 * The interactive dynamic report for a 5-echo dataset  is [here](https://me-ica.github.io/tedana-ohbm-2020/five-echo-report/tedana_report.html)
