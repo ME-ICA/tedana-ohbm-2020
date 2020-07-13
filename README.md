@@ -30,7 +30,7 @@ This contains materials related to tedana and multi-echo fMRI presented at the [
 Co-Organizers: Stefano Moia and Daniel Handwerker
 
 Speakers:
-* Daniel Handwerker: How to decide if multi-echo fMRI can improve your study
+* Daniel Handwerker: [How to decide if multi-echo fMRI can improve your study](https://doi.org/10.6084/m9.figshare.12649250.v1)
 * Elizabeth DuPre: [tedana software and community](https://doi.org/10.6084/m9.figshare.12645545.v1)
 * César Caballero-Gaudes: Multi-echo beyond preprocessing
 * Angela Laird: [Multi-echo fMRI in practice](https://osf.io/dqha3/)
