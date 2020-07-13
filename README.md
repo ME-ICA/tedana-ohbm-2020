@@ -35,6 +35,8 @@ Speakers:
 * César Caballero-Gaudes: Multi-echo beyond preprocessing
 * Angela Laird: [Multi-echo fMRI in practice](https://osf.io/dqha3/)
 
+[Video of all symposium talks](https://drive.google.com/file/d/1iljCldQb11lfKIo33w3GzGKQ1eI7iT5I/view?usp=sharing)
+
 -----
 
 ### Symposium: "Discerning Signal From Artifact: Current issues in resting-state fMRI quality control"
