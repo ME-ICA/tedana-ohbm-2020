@@ -6,7 +6,6 @@ This contains materials related to tedana and multi-echo fMRI presented at the [
 
 ### [Poster 1083: "tedana: Multi-echo software and communal resources"](./docs/OHBM2020_1083_tedana_poster_with_links.pdf)
 * The narration for the poster that includes a demonstration of the interactive results report is [here](./docs/OHBM2020_1083_tedana_poster_narration.mp4) and captions for the narration are [here](./docs/OHBM2020_1083_tedana_poster_narration.srt).
-* During the official poster viewing times, we'll try to have someone at https://meet.jit.si/ohbm2020-1083 who can answer questions (as of now we don't have someone who can be there during the July 2-3 poster session). We also created a [google doc](https://bit.ly/2Z1T8Xl) where you can submit questions and comments at any time during OHBM
 * The jupyter notebook that was used to create the dynamic report on the poster is: [process_three_and_five_echo_datasets.ipynb](./process_three_and_five_echo_datasets.ipynb)
 * The interactive dynamic report for the 3-echo data shown in this poster is [here](https://me-ica.github.io/tedana-ohbm-2020/three-echo-report/tedana_report.html)
 * The interactive dynamic report for a 5-echo dataset  is [here](https://me-ica.github.io/tedana-ohbm-2020/five-echo-report/tedana_report.html)
@@ -15,6 +14,7 @@ This contains materials related to tedana and multi-echo fMRI presented at the [
 
 ### Open Science Room: Multi-Echo (fMRI) Community meeting led by Stefano Moia
 * [Open Science Room Schedule](https://ohbm.github.io/osr2020/schedule/emea)
+   The talks may be viewable with a password through the schedule. They will also eventually appear on the [OSR Youtube channel](https://www.youtube.com/channel/UChvSitFvqGDeA1y7MJs4CGQ)
 * [Meeting details](https://github.com/ohbm/osr2020/issues/51)
 * Tuesday-Wednesday June 30 - July 1
 * [Local Time](https://arewemeetingyet.com/New%20York/2020-06-30/15:00/Multi-echo%20(fMRI)%20community%20meeting)
@@ -37,6 +37,8 @@ Speakers:
 
 [Video of all symposium talks](https://drive.google.com/file/d/1iljCldQb11lfKIo33w3GzGKQ1eI7iT5I/view?usp=sharing)
 
+[Official video location will be here, but this currently has restricted access](https://www.pathlms.com/ohbm)
+
 -----
 
 ### Symposium: "Discerning Signal From Artifact: Current issues in resting-state fMRI quality control"
@@ -50,26 +52,28 @@ Includes talk by Benedikt Poser: "Multi-echo acquisition for fMRI sensitivity en
 ## Additional Posters with a multi-echo focus
 
 ### Multi-echo fMRI methods
-* Charles Lynch: 1253 Rapid precision functional mapping of individuals using multi-echo fMRI
+* [Charles Lynch: 1253 Rapid precision functional mapping of individuals using multi-echo fMRI](https://cdn-akamai.6connex.com/645/1827//Lynch_etal_ME_Reliability_OHBM_2020_15922678529503663.pdf)
 * [Ramya Varadarajan: 1324 Validating multi-echo fMRI analysis methods across a range of acquisitions](https://github.com/ramyav97/multi-echo-fMRI-OHBM-2020)
-* Stefano Moia: 1509 ICA-based denoising strategies in highly motion correlated tasks with Multi Echo BOLD fMRI 
-* Hamid Turker: 1742 Multi-echo fMRI and Localization Method Affect Functional Estimates of the Locus Coeruleus
-* Roni Setton: 1759 ME-fMRI connectivity associations with behavior using group and individualized parcellation schemes
-* Nikou Damestani: 2022 Silent fMRI of auditory and motor functions using coherence-resolved Looping Star
-* Brice Fernandez: 2121 Multi-echo EPI of Human Fear Conditioning: Advanced Analysis Using ME-ICA based Denoising
-* Stefano Moia: 2332 Multi-session CVR variability within functional networks
+* [Stefano Moia: 1509 ICA-based denoising strategies in highly motion correlated tasks with Multi Echo BOLD fMRI](https://cdn-akamai.6connex.com/645/1827//Moia_OHBM_1509_15922381110809123.pdf) 
+* [Hamid Turker: 1742 Multi-echo fMRI and Localization Method Affect Functional Estimates of the Locus Coeruleus](https://cdn-akamai.6connex.com/645/1827//OHBM_2020_1592236367538722.pdf)
+* [Roni Setton: 1759 ME-fMRI connectivity associations with behavior using group and individualized parcellation schemes](https://raw.githack.com/rsetton/misc/master/OHBM_L%26R.pdf)
+* [Nikou Damestani: 2022 Silent fMRI of auditory and motor functions using coherence-resolved Looping Star](https://cdn-akamai.6connex.com/645/1827//Poster2022_NLDamestani_15919783112583912.pdf)
+* [Brice Fernandez: 2121 Multi-echo EPI of Human Fear Conditioning: Advanced Analysis Using ME-ICA based Denoising](https://cdn-akamai.6connex.com/645/1827//2121_Poster_OHBM2020_Fernandez_15919875568204938.pdf)
+* [Stefano Moia: 2332 Multi-session CVR variability within functional networks](https://cdn-akamai.6connex.com/645/1827//Moia_OHBM_2332_15922382460251119.pdf)
 
 ### Multi-echo fMRI applications
 * Tanya Procyshyn: 294 Effects of Oxytocin on Neural Reward Processing in Women with and without Autism
-* Molly Wilkinson: 475 Relationship between fMRI BOLD signal and MEG theta power in autism spectrum disorders
+* [Molly Wilkinson: 475 Relationship between fMRI BOLD signal and MEG theta power in autism spectrum disorders](https://cdn-akamai.6connex.com/645/1827//OHBM_poster_15921884565277259.pdf)
 * Gina Humphreys: 845 Narrative speech production in angular gyrus: autobiographical, event-semantic, and object-semantics
-* Karin Kantarovich: 1041 Investigating white matter lesion load, intrinsic functional connectivity, and cognition in aging
-* Linda Geerligs: 1223 Data-driven event segmentation of brain activity reveals the temporal hierarchy of brain function
-* Giulia Baracchini 1651 Functional Connectivity and Interregional BOLD Signal Variance across Large-scale Networks
+* [Karin Kantarovich: 1041 Investigating white matter lesion load, intrinsic functional connectivity, and cognition in aging](https://cdn-akamai.6connex.com/645/1827//OHBM_KK_2020_FINAL_1592010231729494.pdf)
+* [Linda Geerligs: 1223 Data-driven event segmentation of brain activity reveals the temporal hierarchy of brain function](https://cdn-akamai.6connex.com/645/1827//Poster_OHBM_15922448486205692.pdf)
+* [Giulia Baracchini 1651 Functional Connectivity and Interregional BOLD Signal Variance across Large-scale Networks](https://cdn-akamai.6connex.com/645/1827//OHBM2020_poster_15919866947239243.pdf)
 * Ottavia Dipasquale: 2324 Unravelling the effects of methylphenidate on the dopaminergic and noradrenergic functional circuits
 
 ### Multi-echo structural studies
 Note: tedana does not focus on structural uses of multi-echo MRI, but there is a growing literature in this area that highlights now multi-echo sequences can be used. The following posters are both applications and methods that include multi-echo MRI sequences
+
+[Links for posters may be here](https://datalad-datasets.github.io/ohbm2020-posters/#/)
 
 * Christophe Phillips: 74 Voxel-Based Quantitative MRI reveals spatial patterns of grey matter alteration in MultipleSclerosis
 * Bing Yao: 276 A Diffusion Tensor Imaging Study on Assessing the Recovery of Spinal Cord After Injury
