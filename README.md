@@ -13,8 +13,9 @@ This contains materials related to tedana and multi-echo fMRI presented at the [
 -----
 
 ### Open Science Room: Multi-Echo (fMRI) Community meeting led by Stefano Moia
+* [Full recording](https://youtu.be/bm4gfoFNw3g)
 * [Open Science Room Schedule](https://ohbm.github.io/osr2020/schedule/emea)
-   The talks may be viewable with a password through the schedule. They will also eventually appear on the [OSR Youtube channel](https://www.youtube.com/channel/UChvSitFvqGDeA1y7MJs4CGQ)
+
 * [Meeting details](https://github.com/ohbm/osr2020/issues/51)
 * Tuesday-Wednesday June 30 - July 1
 * [Local Time](https://arewemeetingyet.com/New%20York/2020-06-30/15:00/Multi-echo%20(fMRI)%20community%20meeting)
